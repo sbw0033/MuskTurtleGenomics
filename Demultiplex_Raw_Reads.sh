@@ -9,11 +9,13 @@
 #SBATCH --mail-type=ALL              # will send email for begin,end,fail
 #SBATCH --mail-user=sbw0033@auburn.edu
 
+cd /scratch/sbw0033/MuskTurtleGenomics/
+
 #Activate the environment
 module load python/anaconda/3.8.6
 source activate iPyradEnv
 
-#Run the python script 
+#Run the python script
 python Demultiplex3RadReads.py
 
 #To leave the environment
