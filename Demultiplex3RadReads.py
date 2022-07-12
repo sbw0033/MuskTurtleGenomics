@@ -2,7 +2,7 @@ import ipyrad as ip
 import ipyrad.analysis as ipa
 
 # demux outer i7s to the different libraries
-outer1 = ip.Assembly("Sternotherus_demux_run1_i7s_new")
+outer1 = ip.Assembly("Sternotherus_demux_run2_i7s_new")
 
 outer1.params.project_dir = "/scratch/sbw0033/MuskTurtleGenomics/iPyrad/Tests/"
 
