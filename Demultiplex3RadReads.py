@@ -4,7 +4,7 @@ import ipyrad.analysis as ipa
 # demux outer i7s to the different libraries
 outer1 = ip.Assembly("Sternotherus_demux_run1_i7s_new")
 
-outer1.params.project_dir = "/scratch/sbw0033/MuskTurtleGenomics/iPyrad/Tests"
+outer1.params.project_dir = "/scratch/sbw0033/MuskTurtleGenomics/iPyrad/Tests/"
 
 outer1.params.raw_fastq_path = "/scratch/sbw0033/MuskTurtleGenomics/raw_data/Abronia_Sternoth_*.fq.gz"
 

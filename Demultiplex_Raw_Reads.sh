@@ -16,7 +16,7 @@ module load python/anaconda/3.8.6
 source activate iPyradEnv
 
 #Run the python script
-python Demultiplex3RadReads.py
+python3 Demultiplex3RadReads.py
 
 #To leave the environment
 conda deactivate
