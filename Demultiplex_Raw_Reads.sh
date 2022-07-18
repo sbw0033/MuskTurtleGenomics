@@ -1,6 +1,6 @@
 #!/bin/bash -l
 #SBATCH --job-name=DeMultiplexRawReads           # job name
-#SBATCH --mem=20GB            		 # memory
+#SBATCH --mem=40GB            		 # memory
 #SBATCH --ntasks=1                  # number of tasks across all nodes
 #SBATCH --partition=general          # name of partition to submit job
 #SBATCH --time=48:00:00              # Run time (D-HH:MM:SS)
@@ -9,7 +9,7 @@
 #SBATCH --mail-type=ALL              # will send email for begin,end,fail
 #SBATCH --mail-user=sbw0033@auburn.edu
 
-cd /scratch/sbw0033/MuskTurtleGenomics/
+cd /scratch/sbw0033/MuskTurtleGenomics/SamScripts
 
 #Activate the environment
 module load python/anaconda/3.8.6
